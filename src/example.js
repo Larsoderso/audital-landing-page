@@ -15,6 +15,15 @@ export default function BasicExample() {
   return (
     <Router>
       <div>
+        <div
+          style={{
+            backgroundColor: "#051524",
+            padding: "22px",
+            color: "white"
+          }}
+        >
+          This web page is currently under construction.
+        </div>
         {/*
           A <Switch> looks through all its children <Route>
           elements and renders the first one whose path
@@ -72,7 +81,8 @@ function Home() {
           paddingLeft: "4vw",
           paddingRight: "4vw",
           height: "60px",
-          paddingTop: 8
+          paddingTop: 8,
+          backgroundColor: "white"
         }}
       >
         <svg
