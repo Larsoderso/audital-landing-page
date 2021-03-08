@@ -76,7 +76,7 @@ function Home() {
         }}
       >
         <svg
-          width={124}
+          width={100}
           height={38}
           viewBox="0 0 94 23"
           fill="none"
