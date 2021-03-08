@@ -15,15 +15,6 @@ export default function BasicExample() {
   return (
     <Router>
       <div>
-        <div
-          style={{
-            backgroundColor: "#051524",
-            padding: "22px",
-            color: "white"
-          }}
-        >
-          This web page is currently under construction.
-        </div>
         {/*
           A <Switch> looks through all its children <Route>
           elements and renders the first one whose path
@@ -81,8 +72,7 @@ function Home() {
           paddingLeft: "4vw",
           paddingRight: "4vw",
           height: "60px",
-          paddingTop: 8,
-          backgroundColor: "white"
+          paddingTop: 8
         }}
       >
         <svg
@@ -120,44 +110,10 @@ function Home() {
             letterSpacing: "1.10px",
             lineHeight: "100%",
             color: "rgba(30, 42, 53, 1)",
-            marginLeft: 14
-          }}
-        >
-          Platform
-        </p>{" "}
-        <p
-          onMouseEnter={() => setShowUc(true)}
-          onMouseLeave={() => setShowUc(false)}
-          style={{
-            fontSize: "17px",
-            letterSpacing: "1.10px",
-            lineHeight: "100%",
-            color: "rgba(30, 42, 53, 1)",
-            marginLeft: 14
-          }}
-        >
-          Use Cases
-        </p>{" "}
-        <svg
-          style={{ marginTop: 22, marginLeft: 4 }}
-          width={14}
-          height={9}
-          viewBox="0 0 14 9"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M1 1L7 7L13 1" stroke="#1E2A35" strokeWidth={2} />
-        </svg>
-        <p
-          style={{
-            fontSize: "17px",
-            letterSpacing: "1.10px",
-            lineHeight: "100%",
-            color: "rgba(30, 42, 53, 1)",
             marginLeft: "auto"
           }}
         >
-          Contact{" "}
+          Contact us
         </p>{" "}
         <svg
           style={{ marginTop: 22, marginLeft: 8 }}
@@ -253,10 +209,180 @@ function Home() {
         style={{
           width: "100%",
           height: "100%",
-          background: "#09253F",
+          background: "rgb(255 255 255)",
           backdropFilter: "blur(7px)"
         }}
-      ></div>
+      >
+        <svg
+          width={622}
+          height={116}
+          viewBox="0 0 622 116"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          style={{
+            width: "822px",
+            height: "160px",
+            display: "block",
+            margin: "0 auto",
+            marginTop: "120px"
+          }}
+        >
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width={91}
+            height={91}
+            rx="12.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 311.107 24.25)"
+            fill="#C4C4C4"
+            fillOpacity="0.13"
+            stroke="#474444"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width="30.5537"
+            height="67.9347"
+            rx="6.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 344.302 53.7531)"
+            fill="#65ABBC"
+            stroke="#474444"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width="30.7738"
+            height="36.4296"
+            rx="6.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 311.13 34.25)"
+            fill="#65ABBC"
+            stroke="#474444"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width="27.8881"
+            height="24.9843"
+            rx="6.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 276.218 54.9727)"
+            fill="#94CEB9"
+            stroke="#474444"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width={91}
+            height={91}
+            rx="12.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 311.107 0.25)"
+            fill="#C4C4C4"
+            fillOpacity="0.13"
+            stroke="#474444"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width={91}
+            height={91}
+            rx="12.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 542.107 24.25)"
+            fill="#C4C4C4"
+            fillOpacity="0.13"
+            stroke="#1E2A35"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width={91}
+            height={91}
+            rx="12.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 542.107 0.25)"
+            fill="#C4C4C4"
+            fillOpacity="0.13"
+            stroke="#1E2A35"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width="34.2182"
+            height="73.3216"
+            rx="12.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 542.794 7.25)"
+            fill="#00F464"
+            stroke="#474444"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width="34.2182"
+            height="41.2764"
+            rx="12.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 549.044 44.2726)"
+            fill="#FFF18B"
+            stroke="#474444"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width="34.2182"
+            height="23.3846"
+            rx="11.6923"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 576.044 28.25)"
+            fill="#12CEFD"
+            stroke="#474444"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width={91}
+            height={91}
+            rx="12.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 80.1068 24.25)"
+            fill="#C4C4C4"
+            fillOpacity="0.13"
+            stroke="#474444"
+          />
+          <rect
+            x="-2.98023e-08"
+            y="0.5"
+            width={91}
+            height={91}
+            rx="12.5"
+            transform="matrix(0.866025 0.5 -0.866025 0.5 80.1068 0.25)"
+            fill="#C4C4C4"
+            fillOpacity="0.13"
+            stroke="#474444"
+          />
+        </svg>
+        <div
+          style={{
+            width: "822px",
+            margin: "0 auto",
+            fontSize: "22px",
+            marginTop: "86px",
+            color: "#1E2A35"
+          }}
+        >
+          We are currently working on the future of audits built upon
+          collaboration, automation and security.
+        </div>
+        <div
+          style={{
+            width: "240px",
+            height: "60px",
+            background: "#1A21FF",
+            borderRadius: "6px",
+            margin: "0 auto",
+            marginTop: "86px",
+            color: "white",
+            textAlign: "center",
+            lineHeight: "60px",
+            fontWeight: 500
+          }}
+        >
+          Subscribe to our newsletter
+        </div>
+      </div>
     </div>
   );
 }
